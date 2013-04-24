@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VACCINES"
+              android:gravity="center"
+			android:background="@android:color/transparent"
+			android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vacc" />
+    
+   <TextView
+       android:id="@+id/checkedTextView1"
+	   android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+       android:text="\n\n	
+            To keep your baby healthy and happy and for that parents need to be very attentive for healthy growth of their baby. One most important thing that every parent should take care about their baby is to maintain vaccine schedule. Vaccines are very important to protect your baby from illness and other major diseases. When your baby is born, doctor gives complete schedule of vaccinations. You should remember scheduled date of vaccine and take your baby to immunization center to give her vaccine.
+
+" />
+
+<TextView
+    android:id="@+id/checkedTextView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="
+\n\n  COMMON VACCINE SCHEDULE
+ 
+\nBirth Time Vaccine: Hepatitis B [It will be given within 12 hours of Birth]\n
+
+ 
+\nVaccine for 2 months baby:\n
+
+\nHepatitis B,
+Diphtheria, Tetanus and Acellular Pertussis (whooping cough),
+Hemophilus influenza b  Meningitis,
+Inactivated Polio Vaccine,
+Pneumococcal Conjugate Vaccine
+ 
+\n\nVaccine for 4 months baby:\n
+
+Hepatitis B (for 6-18 months),
+Diphtheria, Tetanusand Acellular Pertussis (whooping cough),
+Hemophilus influenza b / Meningitis,
+Inactivated Polio Vaccine (for 6-18 months),
+Pneumococcal Conjugate Vaccine
+
+\n\nVaccine for 12-15 months:\n
+
+Hemophilus influenza b / Meningitis,
+Measles, Mumps and Rubella,
+Pneumococcal Conjugate Vaccine,
+Varicella (chicken pox) (12-18 months)
+ 
+\n\nVaccine for 15-18 months:\n
+
+Diphtheria, Tetanus and Acellular Pertussis (whooping cough)
+ 
+\n\nVaccine for 4-6 years:\n
+
+Diphtheria, Tetanus and Acellular Pertussis (whooping cough),
+Inactivated Polio Vaccine, Measles, Mumps and Rubella
+ 
+\n\nVaccine for 11-12 years:\n
+
+Tetanus and Diphtheria
+
+\n\n\nVACCINATION SCHEDULE IN INDIA ARE AS FOLLOWS.\n
+
+\nBirth: BCG, OPV, Hepatitis B\n
+6 weeks: DTP, OPV+IPV, Hepatitis B, Hib, PCV\n
+
+\n10 Weeks: DTP, OPV+IPV, Hib, PCV
+
+\n14 Weeks: DTP, OPV+IPV, Hepatitis B, Hib, PCV
+
+\n9 months: Measles\n
+
+\n1 year : Varicella
+
+\n15 months: MMR, PCV Booster
+
+\n16 months: Hib Booster
+
+\n18 months: DTP Booster, OPV+IPV Booster
+
+\n2 years: Typhoid
+
+\n2 years 1 month: Hepatitis A
+\n
+2 years 7 months: Hepatitis A
+\n
+5 years: DTP Booster, OPV Booster, Typhoid
+\n
+10 years: Tdap, HPV
+\n
+
+
+\nFull Form of Vaccines\n
+BCG: Tuberculosis (Bacillus Calmette Guerin)\n
+OPV: Oral Polio Vaccine\n
+DTP: Diphtheria, Tetanus, Pertussis\n
+Hib: (Haemophilus Influenzae Type B) Pneumonia, Meningitis, Bacteremia\n
+MMR: Measles, Mumps, Rubella\n
+Td: Tetanus\n
+PCV: Pneumococcal Conjugate Vaccine, Bacterial diseases causing pneumonia, meningitis etc.\n
+Varicella: Chicken Pox\n
+HPV: Human Papilloma Virus causing cervical cancer\n" />
+
+   <Button
+       android:id="@+id/button1"
+       android:layout_width="wrap_content"
+       
+  		android:gravity="center"
+		android:background="@android:color/transparent"
+		android:textStyle="bold"
+       android:layout_height="wrap_content"
+       android:text="Back" />
+
+</LinearLayout>
+
+</ScrollView>

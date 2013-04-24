@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                     android:layout_marginTop="10dip"
+            android:layout_height="wrap_content"
+            android:text="Baby Diet Tips"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:src="@drawable/babyeat" />
+    
+   <TextView
+       android:id="@+id/checkedTextView1"
+	   android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:layout_marginLeft="9dip"
+        android:layout_marginRight="9dip"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+       android:text="	\n\n
+           \tThe parents can consult a doctor for a proper diet plan and follow it. Things the parents must do when their child is 12 months old are:
+ 
+Start giving him new food but only one at a time and see if your child likes it and is not allergic to it.
+\n\nDo not give your child things like popcorns or nuts which have chances of choking the food pipe.
+\n\nInstead of breast feeding start giving your child whole milk so that it fulfils the need of fats in his body.
+\n\nFeed your child 5-6 times a day in small proportions.
+\n\nGive him different things to it so that he develops taste for all the thingsand enjoy eating them.
+\n\nDo not give your child soft drinks, chocolates or any such thing that would make him addictive and harm him as these things contain harmful chemicals.
+\n\nEncourage your child to eat fruits. Seasonal fruits are very healthy and nutritious.
+Some parents find it a little confusing as to what they should give their child and when. To solve the confusion they can refer to the diet plan given byt the pediatrician.\n\n
+
+
+
+" />
+   <Button
+        android:id="@+id/button1"
+        
+        android:layout_width="wrap_content"
+        android:background="@android:color/transparent"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+   
+   
+</LinearLayout>
+
+</ScrollView>

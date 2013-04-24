@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"        
+    android:gravity="center"
+    android:text="\n\n\n\nDesigned and Developed by :\n\n
+    Ashin Roy\n
+    Muhamed Naseef\n
+    Federal Institute of Science And Technology (FISAT)
+    \n\nAs part of the Aakash 2 tablet application development program
+    \nSupported by IIT Bombay\n\n
+    " />
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:gravity="bottom"
+    android:text="\n\n\n\n\n\n\n\n\nBack" />
+
+</LinearLayout>
