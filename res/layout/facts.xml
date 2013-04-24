@@ -1,0 +1,107 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" >
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dip"
+            android:gravity="center"
+            android:text="PREGNANCY FACTS"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                
+               
+                android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_columnSpan="3"
+                android:layout_marginTop="209dip"
+               
+                android:layout_row="0"
+                android:layout_centerHorizontal="true"
+                  android:layout_marginLeft="9dip"
+        android:layout_marginRight="9dip"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_rowSpan="3"
+                
+                android:text="	
+            
+          
+   \n\n\n\n         Pregnancy is a beautiful process of nurturing a life inside the womb. It is one of the best phases in any woman’s life. It also takes the expecting woman into a completely new world of motherhood. \n  
+   After 40 weeks growing in your womb, your baby is ready for birth, and it&apos;s time to prepare for his life in the world…
+    
+   \n Final preparations
+    \n
+    \nFrom 27 weeks your baby is piling on layers of fat to keep him warm in the outside world. Towards the end of your pregnancy, your baby is putting on half an ounce a day, so space is getting tight. He’s also practising breathing, by swallowing amniotic fluid that surrounds him and this gradually becomes more and more rhythmic. 
+    
+    \nFrom 28 weeks, he is covered in a waxy substance, called vernix, which will protect his delicate skin from getting scratched and also make it easier for him to slip down the birth canal when he’s born.
+    
+    \nGetting into position
+    \n
+    \nBetween 35 and 38 weeks you may feel your baby turning, as he moves into the engaged position, with his head down in your cervix. Be prepared for plenty of kicks in the ribs once he’s in this upside-down position. This process is called ‘lightening’ and the exact timing depends on what number pregnancy you’re on. 
+    
+    \nSecond or third babies may not engage until labour has already started. Three per cent of babies never turn and choose to come out feet or bottom first (known as breech)
+    
+    \nAll systems go
+    
+   \n \nYour body releases oestrogen, the hormone which triggers contractions when it’s time for labour. Every contraction you have slightly reduces your baby’s oxygen supply, because the vessels in your uterus that supply blood to the placenta are compressed. 
+    
+    \nYour baby’s heart beat dips during this time, but don’t worry - as a reaction his body releases large quantities of a hormone called epinephrine, to keep his heart pumping fast enough, and to prepare his lungs for his first breath of air.
+    
+    \n\n\nAnd he’s off
+    
+   \n \nTo make the journey down the birth canal easier, your baby’s skull bones are soft and not completely fused together, so they can slide over each other and overlap. This ingenious design allows your baby’s head to mould to the shape of your pelvis and helps ease him out with each contraction. The vernix he’s coated in also helps reduce friction and assists in delivery.
+   \n\n\n\n" />
+
+            
+      
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            android:src="@drawable/prettybump476x290" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_marginRight="14dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="
+            
+            Back"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</ScrollView>

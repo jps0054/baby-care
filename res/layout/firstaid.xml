@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+                    android:textStyle="bold"
+                    android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="First Aid Tips"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:src="@drawable/p9" />
+    
+   <TextView
+       android:id="@+id/checkedTextView1"
+	   android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:layout_marginLeft="9dip"
+        android:layout_marginRight="9dip"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+       android:text="  Choking \n
+If the child is not coughing but is gasping, turning scarlet and then greyish, with an expression of panic in his eyes, he cannot breathe. Act fast. Open his mouth and put your finger boldly in to the back of his throat in case you can hook the object. If you can make him retch, even better, this may dislodge the object. If this does not work, you could try the 'Heimlich manouevre.' Lay him on his side and tilt his head back slightly. Support his back with one hand and place two fingers of your other hand about half way between his navel and the point where the bottom of his ribs forms an inverted V-shape. Press inwards and upwards with a quick thrusting movement.\n
+
+\nConstipaion \n
+For new borns, you could give some sugar water or add sugar to milk. Increase the content of water and roughage, which can be provided by vegetables, fruits and whole-wheat flour in the child's diet. Encourage your child to use the toilet regularly, without hurry, coercion or distractions.\n
+
+\nFever \n
+Take off your baby's clothes and sponge her with cool water, till the temperature reduces to around 100 degrees Fahrenheit. Give her a few sips of water if you feel that she is dehydrated. Alternatively, if your child's body feels very cool, she might have an infection. Check her temperature. If it is below 96 degrees Fahrenheit, wrap her snugly with warm clothing, taking care to cover the scalp.\n
+
+\nDiarrhoea \n
+The basic principle in the management of diarrhoea is maintenance of water in the body. This is best accomplished by the use of oral rehydration salts (ORS). As soon as the child starts having loose motions, start giving him sips of ORS. (Add one packet of ORS to one litre of pre-boiled and cooled water to make an ORS solution.) You could start giving her one teaspoonful (5 ml) in one minute, taking care to give her at least 200 ml after each bout of loose stool. For infants and new borns, 100 ml and 50 ml respectively after each bout is recommended. In case you do not have ORS at home, you could administer a salt-sugar solution (add a pinch of salt and a teaspoonful of sugar in 200 ml of water to make the solution) to your child.\n
+
+\nStomachache \n
+If her tummy ache lasts longer than 15-20 minutes check your child's body temperature and put her to bed. Do not give her anything to eat. If she is thirsty, give her small sips of water. If you do not suspect appendicitis, make her lie down and give her a hot water bag wrapped in a towel to hold against her stomach till the doctor arrives.\n
+
+\nRashes \n
+Use plain water to clean the rash area. Don't use soap or diaper wipes, as they could be irritating. Dry the child's bottom completely before putting on fresh nappies/panties. Use an extra-absorbent liner inside the diapers. Apply petroleum jelly or any diaper ointment on the area. Do not use plastic panties over nappies until the rash has disappeared. They will prevent air circulation around your baby's bottom and delay the healing process. 
+Try to leave the child without diapers for as long as possible in a day. If the rash is slight, just air-drying would cure it in no time.\n
+
+\nBurns \n
+Cool the burned area with cold water for about ten minutes. This will help blood vessels, which have been damaged already to close up again and prevent further loss of plasma. It will also stop the burning sensation, although temporarily. If the child has clothes on, the heat will get trapped in it. Remove the clothes as you run the cold tap on the child. If the burn needs medical treatment, wrap the cooled area in a smooth fabric like a handkerchief, pillowcase or sheet to protect the raw area from airborne bacteria.\n
+
+" />
+   <Button
+        android:id="@+id/button1"
+        
+        android:layout_width="wrap_content"
+        android:background="@android:color/transparent"
+        android:textStyle="bold"
+        
+        android:layout_height="wrap_content"
+        android:text="Back" />
+   
+   
+</LinearLayout>
+
+</ScrollView>

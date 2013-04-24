@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"  >
+
+
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >         
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:gravity="center"
+        android:textStyle="bold"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pregnancy Period Diets And Tips\n" 
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/diet" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dip"
+        android:layout_marginRight="9dip"
+        
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="     \nNow that you&apos;re pregnant, taking care of yourself has never been more important. Of course, you&apos;ll probably get advice from everyone — your doctor, family members, friends, co-workers, and even complete strangers — about what you should and shouldn&apos;t be doing.
+
+Staying healthy during pregnancy depends on you, so it&apos;s crucial to arm yourself with information about the many ways to keep you and your baby as healthy as possible.\n
+
+\nTips for staying healthy during pregnancy :\n
+
+ \n\n* As it has been strictly prescribed by doctors that intake of Vitamin A must be controlled because it may cause damage to embryo.
+
+\n\n* Cabbage, Cauli-flower &amp; all long green vegetables such as Tondali, Turai, Louki, Parwal, Spinach, Govari should be used alternately. You must keep balance, rather than eating same vegetable all the time.
+
+\n\n* Reduce brinjal, suran/yam, papaya, celery, onion, chilli, garlic, ginger, pepper, asfoetida, mustard, bajara, carom seeds, jaggery from your diet. You must remember that those who have previous history of abortion better they must avoid these.
+
+
+\n\n* Those who suffer from constipation, gas, bloating must avoid peas and other `heavy to digest&apos; cereals, potato. They must take green gram as it is easy to digest and gives protein.
+Black grapes, banana, ripe mango, dates, cashewnuts, apricot are very beneficial.
+
+
+\n\n* Butter, clarified butter, milk, honey, fennel seeds, sweets made from jaggery rather than white sugar can be taken in small quantity.
+Rice, Murmure, pulao, Bhakari, Khichri, Chapati, Paratha, Gujarati thepla are the items made from wheat and rice, so they are quite beneficial.
+
+
+\n\n* Items such as sandwich, bakery bread, bun, dhokla, pizza, handva, pancake, khaman, steamed rice cake, curd, tomato, tamarind, kadhi usually increase the swellings and acidity. So, try to avoid such item but if such problems do not exist, you can take in small quantity.
+Indian women try to carry out fasts during pregnancy which is not good for health.
+
+\n\n* Do not eat left over, frozen &amp; deep-frozen food.
+Avoid cold drinks, mutton, cocoa, chicken, eggs, alcohol, smoking, tobacco, betel nut, pan-masala but tea, coffee &amp; ice-creams can be taken in small quantity.
+
+\n\n* Remember, the baby inside depends on you for proper nutrition. So, if you will take healthy &amp; balanced diet your child will become healthy.
+During pregnancy, mother must focus on supplemental nutrients while maintaining a balanced and nutritious diet. It&apos;s adviceable to get a list of healthy Indian foods and meal planning tips from doctor to eat well during the pregnancy." />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:background="@android:color/transparent"
+        android:textStyle="bold"
+         
+       
+        
+          android:gravity="right"
+        android:layout_height="wrap_content"
+        android:text="\t\t     \t\t\t       \n\n\t\t\t\t \t\t\t\t                  Back" />
+
+"
+        
+
+
+</LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

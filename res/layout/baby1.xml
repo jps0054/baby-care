@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/b3"
+    >
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:text="\n \tMenu:\n"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="262dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text=" Pregnancy Facts" />
+
+    <Button
+        android:id="@+id/button03"
+        android:layout_width="262dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text=" Diet during pregnancy" />
+
+    <Button 
+        android:text="Baby Diet Tips" 
+        android:id="@+id/bdiet" 
+        android:textStyle="bold"
+            
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"></Button>
+    
+    <Button
+        android:id="@+id/Vaccination"
+        android:layout_alignParentBottom="true"
+        android:layout_width="262dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text=" Vaccination" />
+
+    <Button
+        android:id="@+id/faid"
+        android:layout_width="262dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text=" First Aid for Babies" />
+    <Button 
+        android:text="Slide Show" 
+        android:id="@+id/show" 
+        android:layout_width="262dp"
+
+        android:textStyle="bold"        
+        android:layout_height="wrap_content"></Button>\
+        <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        
+         
+        
+        
+        
+        <Button 
+        android:text="Credits" 
+        android:id="@+id/main" 
+        android:layout_width="wrap_content" 
+        android:layout_marginLeft="70dip"
+        android:gravity="bottom"        
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:id="@+id/exit"
+        
+        
+        android:layout_width="wrap_content"
+        
+        android:background="@android:color/transparent"
+        android:textStyle="bold"
+        
+        android:layout_height="wrap_content"
+        android:text="
+        
+        
+        
+        
+        \n\t\t\t\t      Exit  " />
+
+</LinearLayout>
+
+</ScrollView>
